@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Aldrich|VT323" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Invaders</title>
+    </head>
+    <body class="flex relative">
+        <a class="absolute color-1 montserrat fs-1-6 top-10 left-10 z-2" href="./space-invaders.zip" target="_blank">Télécharger le code source</a>
+        <a href="../page-javascript.html" class="absolute color-0 p-10 no-decoration bg-1 montserrat fs-1-6 top-10 right-10 z-2">Retour</a>
+        <header class="h100p txt-center z-1">
+            <h1 class="font-vt fs-4x"><a class="color-1 no-decoration" href="./index.html">Invaders</a></h1>
+        </header>
+        <main class="flex center w800p h600p b-3 bcolor-1 bg-0 mt-20 mb-20">
+            <div class="w100 h50p flex bbottom-1 bcolor-1 lh-50">
+                <p class="w50 color-1 font-vt fs-2-4 pl-20">SCORE : <span id="score">0</span></p>
+                <p class="w50 color-1 font-vt fs-2-4 txt-right pr-20">VIES : <span id="vies">3</span></p>
+            </div>
+
+            <div class="relative w100 h540p" id="block-game"></div>
+        </main>
+        <script type="text/javascript" src="./js/script.js"></script>
+    </body>
+</html>

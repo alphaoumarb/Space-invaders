@@ -1,0 +1,21 @@
+- Ennemis
+    - Affichage
+    - Déplacement
+    - Tir
+    - Collision
+
+    - sens du déplacement
+    - position
+    - vitesse
+    - statut
+    - { type }
+
+
+- Missiles
+    - Affichage
+    - Déplacement
+    - Collision
+
+    - position
+    - vitesse
+    - statut

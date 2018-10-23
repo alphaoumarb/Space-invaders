@@ -1,0 +1,179 @@
+@import 'reset.css';
+
+html { font-size: 62.5%; }
+body {
+    background: url('./img/background.jpg') no-repeat center center transparent;
+    background-size: cover;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.relative { position: relative; }
+.absolute { position: absolute; }
+
+.z-2 { z-index: 2; }
+
+.top-10     { top: 10px;    }
+.bottom-10  { bottom: 10px; }
+.left-10    { left: 10px;   }
+.right-10   { right: 10px;  }
+
+.o-hidden { overflow: hidden; }
+
+.center { margin: 0 auto; }
+
+.right { float: right; }
+
+.mh-300 { min-height: 300px; }
+
+.h32p  { height: 32px;  }
+.h50p  { height: 50px;  }
+.h100p { height: 100px; }
+.h540p { height: 540px; }
+.h600p { height: 600px; }
+
+.lh-50 { line-height: 50px; }
+
+.flex { 
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center   { align-items: center;              }
+.content-center { justify-content: center;          }
+.s-around       { justify-content: space-around;    }
+.flex-grow { flex-grow: 1; }
+
+.block { display: block; }
+
+/********** 
+Widths
+**********/
+.w16p    { width: 16px;      }
+.w32p    { width: 32px;      }
+.w800p   { width: 800px;     }
+.w1200p  { width: 1200px;    }
+
+.w100   { width: 100%;      }
+.w85    { width: 85%;       }
+.w75    { width: 75%;       }
+.w66    { width: 66.666%;   }
+.w50    { width: 50%;       }
+.w33    { width: 33.333%;   }
+.w25    { width: 25%;       }
+.w15    { width: 15%;       }
+
+.txt-left       { text-align: left;     }
+.txt-center     { text-align: center;   }
+.txt-justify    { text-align: justify;  }
+.txt-right      { text-align: right;    }
+
+.no-decoration { text-decoration: none; }
+.colored-on-hover:hover {
+    background-color: #C51B0C;
+    color: #fff;
+}
+
+.opacity-5 { opacity: 0.5; }
+
+/********** 
+Fonts
+**********/
+.fs-1-2 { font-size: 1.2rem; }
+.fs-1-4 { font-size: 1.4rem; }
+.fs-1-6 { font-size: 1.6rem; }
+.fs-2x  { font-size: 2rem;   }
+.fs-2-4 { font-size: 2.4rem  }
+.fs-4x  { font-size: 4rem;   }
+
+.font-vt        { font-family: 'VT323', monospace;          }
+.font-aldrich   { font-family: 'Aldrich', sans-serif;       }
+.montserrat     { font-family: 'Montserrat', sans-serif;    }
+
+strong { font-weight: bold; }
+
+.no-background  { background: none;     }
+.bg-0           { background: #000;     }
+.bg-1           { background: #fff;     }
+.bg-2           { background: #155724;  }
+.bg-3           { background: #721c24;  }
+
+.color-0 { color: #000;     }
+.color-1 { color: #fff;     }
+.color-2 { color: #155724;  }
+.color-3 { color: #721c24;  }
+
+.c-pointer { cursor: pointer; }
+
+.z-1 { z-index: 1; }
+
+/********** 
+Borders
+**********/
+.no-border  { border: none;             }
+.b-1        { border: 1px solid;        }
+.b-2        { border: 2px solid;        }
+.b-3        { border: 3px solid;        }
+.bbottom-1  { border-bottom: 1px solid; }
+.bbottom-3  { border-bottom: 3px solid; }
+.btop-1     { border-top: 1px solid;    }
+.bleft-3    { border-left: 3px solid;   }
+.bright-1   { border-right: 1px solid;  }
+.bright-3   { border-right: 3px solid;  }
+
+.bcolor-0   { border-color: #222;       }
+.bcolor-1   { border-color: #fff;       }
+.bcolor-2   { border-color: #155724;    }
+.bcolor-3   { border-color: #721c24;    }
+
+/********** 
+Margins
+**********/
+.m-10   { margin: 10px;         }
+
+.mb-5   { margin-bottom: 5px;   }
+.mb-10  { margin-bottom: 10px;  }
+.mb-20  { margin-bottom: 20px;  }
+.mb-30  { margin-bottom: 30px;  }
+
+.mt-5   { margin-top: 5px;      }
+.mt-10  { margin-top: 10px;     }
+.mt-20  { margin-top: 20px;     }
+
+.ml-20  { margin-left: 20px;    }
+
+.mr-5   { margin-right: 5px;    }
+
+/********** 
+Paddings
+**********/
+.p-5    { padding: 5px;         }
+.p-10   { padding: 10px;        }
+
+.pt-5   { padding-top: 5px;     }
+.pt-10  { padding-top: 10px;    }
+.pt-20  { padding-top: 20px;    }
+
+.pb-5   { padding-bottom: 5px;  }
+.pb-10  { padding-bottom: 10px; }
+
+.pl-10  { padding-left: 10px;   }
+.pl-20  { padding-left: 20px;   }
+
+.pr-20  { padding-right: 20px;  }
+
+/********** 
+Other CSS
+**********/
+header, footer { line-height: 100px; }
+.ship {
+    background: #fff;
+    height: 32px;
+    width: 32px;
+    bottom: 30px;
+    position: absolute;
+}
+.enemy {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+}
